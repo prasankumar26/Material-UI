@@ -8,7 +8,8 @@ import { Container } from "@mui/material";
 // import MuiSlider from "./components/MuiSlider";
 // import MuiRatings from "./components/MuiRatings";
 // import MuiAutocompleate from "./components/MuiAutocompleate";
-import MuiBox from "./components/MuiBox";
+// import MuiBox from "./components/MuiBox";
+import MuiCard from "./components/MuiCard";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
       {/* <MuiSlider /> */}
       {/* <MuiRatings /> */}
       {/* <MuiAutocompleate /> */}
-      <MuiBox />
+      {/* <MuiBox /> */}
+      <MuiCard />
     </Container>
   );
 }
