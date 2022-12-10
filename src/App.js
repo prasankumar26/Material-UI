@@ -10,7 +10,8 @@ import { Container } from "@mui/material";
 // import MuiAutocompleate from "./components/MuiAutocompleate";
 // import MuiBox from "./components/MuiBox";
 // import MuiCard from "./components/MuiCard";
-import MuiAccordian from "./components/MuiAccordian";
+// import MuiAccordian from "./components/MuiAccordian";
+import MuiImageList from "./components/MuiImageList";
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <MuiAutocompleate /> */}
       {/* <MuiBox /> */}
       {/* <MuiCard /> */}
-      <MuiAccordian />
+      {/* <MuiAccordian /> */}
+      <MuiImageList />
     </Container>
   );
 }
