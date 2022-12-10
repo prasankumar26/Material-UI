@@ -15,10 +15,11 @@ const MuiRadioButton = () => {
   console.log(value, "value");
 
   return (
-    <Box>
+    <Box marginTop={5}>
       <FormControl error>
         <FormLabel id="demo-radio-buttons-group-label">Gender</FormLabel>
         <RadioGroup
+          row
           aria-labelledby="demo-radio-buttons-group-label"
           defaultValue="female"
           name="radio-buttons-group"
@@ -40,3 +41,5 @@ const MuiRadioButton = () => {
 };
 
 export default MuiRadioButton;
+
+// https://mui.com/material-ui/react-radio-button/#main-content
