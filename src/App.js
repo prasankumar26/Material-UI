@@ -1,11 +1,12 @@
 import { Container } from "@mui/material";
-import MuiSlider from "./components/MuiSlider";
+import MuiRatings from "./components/MuiRatings";
 // import MuiTypography from "./components/MuiTypography";
 // import MuiButton from "./components/MuiButton";
 // import MuiTextField from "./components/MuiTextField";
 // import MuiSelectField from "./components/MuiSelectField";
 // import MuiRadioButton from "./components/MuiRadioButton";
 // import MuiCheckbox from "./components/MuiCheckbox";
+// import MuiSlider from "./components/MuiSlider";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <MuiSelectField /> */}
       {/* <MuiRadioButton /> */}
       {/* <MuiCheckbox /> */}
-      <MuiSlider />
+      {/* <MuiSlider /> */}
+      <MuiRatings />
     </Container>
   );
 }
