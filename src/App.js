@@ -9,7 +9,8 @@ import { Container } from "@mui/material";
 // import MuiRatings from "./components/MuiRatings";
 // import MuiAutocompleate from "./components/MuiAutocompleate";
 // import MuiBox from "./components/MuiBox";
-import MuiCard from "./components/MuiCard";
+// import MuiCard from "./components/MuiCard";
+import MuiAccordian from "./components/MuiAccordian";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <MuiRatings /> */}
       {/* <MuiAutocompleate /> */}
       {/* <MuiBox /> */}
-      <MuiCard />
+      {/* <MuiCard /> */}
+      <MuiAccordian />
     </Container>
   );
 }
