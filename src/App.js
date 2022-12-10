@@ -7,7 +7,8 @@ import { Container } from "@mui/material";
 // import MuiCheckbox from "./components/MuiCheckbox";
 // import MuiSlider from "./components/MuiSlider";
 // import MuiRatings from "./components/MuiRatings";
-import MuiAutocompleate from "./components/MuiAutocompleate";
+// import MuiAutocompleate from "./components/MuiAutocompleate";
+import MuiBox from "./components/MuiBox";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <MuiCheckbox /> */}
       {/* <MuiSlider /> */}
       {/* <MuiRatings /> */}
-      <MuiAutocompleate />
+      {/* <MuiAutocompleate /> */}
+      <MuiBox />
     </Container>
   );
 }
