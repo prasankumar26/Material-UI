@@ -12,7 +12,14 @@ import { Container } from "@mui/material";
 // import MuiCard from "./components/MuiCard";
 // import MuiAccordian from "./components/MuiAccordian";
 // import MuiImageList from "./components/MuiImageList";
-import MuiNavbar from "./components/MuiNavbar";
+// import MuiNavbar from "./components/MuiNavbar";
+// import MuiLink from "./components/MuiLink";
+// import MuiDrawer from "./components/MuiDrawer";
+// import MuiSpeedDial from "./components/MuiSpeedDial";
+// import MuiBottomNavigation from "./components/MuiBottomNavigation";
+// import MuiAvatar from "./components/MuiAvatar";
+// import MuiBadge from "./components/MuiBadge";
+import MuiList from "./components/MuiList";
 
 function App() {
   return (
@@ -30,7 +37,14 @@ function App() {
       {/* <MuiCard /> */}
       {/* <MuiAccordian /> */}
       {/* <MuiImageList /> */}
-      <MuiNavbar />
+      {/* <MuiNavbar /> */}
+      {/* <MuiLink /> */}
+      {/* <MuiDrawer /> */}
+      {/* <MuiSpeedDial /> */}
+      {/* <MuiBottomNavigation /> */}
+      {/* <MuiAvatar /> */}
+      {/* <MuiBadge /> */}
+      <MuiList />
     </Container>
   );
 }
