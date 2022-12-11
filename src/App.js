@@ -15,7 +15,8 @@ import { Container } from "@mui/material";
 // import MuiNavbar from "./components/MuiNavbar";
 // import MuiLink from "./components/MuiLink";
 // import MuiDrawer from "./components/MuiDrawer";
-import MuiSpeedDial from "./components/MuiSpeedDial";
+// import MuiSpeedDial from "./components/MuiSpeedDial";
+import MuiBottomNavigation from "./components/MuiBottomNavigation";
 
 function App() {
   return (
@@ -36,7 +37,8 @@ function App() {
       {/* <MuiNavbar /> */}
       {/* <MuiLink /> */}
       {/* <MuiDrawer /> */}
-      <MuiSpeedDial />
+      {/* <MuiSpeedDial /> */}
+      <MuiBottomNavigation />
     </Container>
   );
 }
