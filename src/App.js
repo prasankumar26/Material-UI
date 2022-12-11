@@ -12,7 +12,8 @@ import { Container } from "@mui/material";
 // import MuiCard from "./components/MuiCard";
 // import MuiAccordian from "./components/MuiAccordian";
 // import MuiImageList from "./components/MuiImageList";
-import MuiNavbar from "./components/MuiNavbar";
+// import MuiNavbar from "./components/MuiNavbar";
+import MuiLink from "./components/MuiLink";
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/* <MuiCard /> */}
       {/* <MuiAccordian /> */}
       {/* <MuiImageList /> */}
-      <MuiNavbar />
+      {/* <MuiNavbar /> */}
+      <MuiLink />
     </Container>
   );
 }
